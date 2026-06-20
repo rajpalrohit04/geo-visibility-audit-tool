@@ -1,0 +1,26 @@
+{
+  "name": "geo-visibility-audit",
+  "version": "1.0.0",
+  "description": "Audits whether a brand shows up in AI-generated answers (Claude, GPT, and optionally Gemini and Perplexity) for real bottom-of-funnel search queries, and scores citation strength, cluster coverage, and competitor share of voice.",
+  "type": "module",
+  "main": "geo-audit.js",
+  "scripts": {
+    "audit": "node geo-audit.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "googleapis": "^144.0.0"
+  },
+  "keywords": [
+    "geo",
+    "generative-engine-optimization",
+    "aeo",
+    "answer-engine-optimization",
+    "ai-search",
+    "llm-visibility",
+    "seo"
+  ],
+  "license": "MIT"
+}
