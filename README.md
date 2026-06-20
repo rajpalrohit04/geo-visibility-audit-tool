@@ -109,8 +109,4 @@ Defaults can be overridden in `.env`:
 
 ## A note on cost
 
-Each run makes a number of API calls: site research, query generation, the per-query checks across every active model, competitor extraction, and the final diagnosis. A full 30-query run across two models is usually a few cents to a couple of dollars depending on the models you pick. The terminal output prints an estimated Anthropic cost at the end; other providers bill separately under their own usage.
-
-## License
-
-MIT
+Each run makes a number of API calls: site research, query generation, the per-query checks across every active model, competitor extraction, and the final diagnosis. A full 30-query run across two models is usually a few cents to a couple of dollars, depending on the models you pick. The terminal output prints an estimated Anthropic cost at the end; other providers bill separately under their own usage.
